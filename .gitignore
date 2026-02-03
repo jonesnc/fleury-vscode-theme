@@ -1,0 +1,7 @@
+.vscode/
+CLAUDE.md
+*.md.bak
+node_modules/
+*.vsix
+Screenshot*.png
+4coder-theme.md

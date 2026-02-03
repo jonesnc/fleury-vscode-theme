@@ -1,0 +1,55 @@
+{
+  "name": "4coder-theme",
+  "displayName": "4coder Theme",
+  "description": "A VSCode theme based on the 4coder editor Fleury color scheme with warm orange-gold tones",
+  "version": "1.0.0",
+  "publisher": "jonesnc",
+  "author": {
+    "name": "Nathan Jones"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/jonesnc/4coder-vscode-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonesnc/4coder-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/jonesnc/4coder-vscode-theme/issues"
+  },
+  "keywords": [
+    "theme",
+    "4coder",
+    "dark",
+    "fleury",
+    "orange",
+    "warm",
+    "syntax highlighting"
+  ],
+  "icon": "theme.png",
+  "galleryBanner": {
+    "color": "#020202",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "4coder Warm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/4coder-warm-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.15.0"
+  }
+}

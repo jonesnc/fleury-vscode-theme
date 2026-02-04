@@ -484,19 +484,11 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "function": "#de451f",
-    "function.declaration": "#de451f",
     "function.defaultLibrary": "#2895c7",
-    "method": "#de451f",
-    "method.declaration": "#de451f",
     "method.defaultLibrary": "#2895c7",
     "type": "#edb211",
     "type.defaultLibrary": "#2895c7",
-    "class": "#edb211",
-    "class.defaultLibrary": "#2895c7",
-    "struct": "#edb211",
     "enum": "#a7eb13",
-    "interface": "#edb211",
-    "typeParameter": "#edb211",
     "parameter": "#b99468",
     "parameter.declaration": "#c9598a",
     "variable": "#b99468",
@@ -517,7 +509,6 @@
     "function.decorator": "#2895c7",
     "macro": "#2895c7",
     "magicFunction": "#2895c7",
-    "magicFunction.declaration": "#2895c7",
     "builtinConstant": "#2895c7"
   }
 }

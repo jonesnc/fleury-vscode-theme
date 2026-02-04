@@ -1,26 +1,27 @@
 {
-  "name": "4coder-theme",
-  "displayName": "4coder Theme",
-  "description": "A VSCode theme based on the 4coder editor Fleury color scheme with warm orange-gold tones",
+  "name": "fleury-theme",
+  "displayName": "Fleury Theme",
+  "description": "A VSCode theme based on Ryan Fleury's 4coder color scheme with warm orange-gold tones",
   "version": "1.0.0",
   "publisher": "jonesnc",
   "author": {
     "name": "Nathan Jones"
   },
   "license": "MIT",
-  "homepage": "https://github.com/jonesnc/4coder-vscode-theme",
+  "homepage": "https://github.com/jonesnc/fleury-vscode-theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonesnc/4coder-vscode-theme"
+    "url": "https://github.com/jonesnc/fleury-vscode-theme"
   },
   "bugs": {
-    "url": "https://github.com/jonesnc/4coder-vscode-theme/issues"
+    "url": "https://github.com/jonesnc/fleury-vscode-theme/issues"
   },
   "keywords": [
     "theme",
+    "fleury",
+    "ryan fleury",
     "4coder",
     "dark",
-    "fleury",
     "orange",
     "warm",
     "syntax highlighting"
@@ -39,9 +40,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "4coder Warm",
+        "label": "Fleury Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/4coder-warm-color-theme.json"
+        "path": "./themes/fleury-color-theme.json"
       }
     ]
   },

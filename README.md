@@ -1,6 +1,6 @@
-# 4coder Theme for VSCode
+# Fleury Theme for VSCode
 
-A Visual Studio Code theme based on Ryan Fleury's 4coder theme, featuring warm orange-gold tones.
+A Visual Studio Code theme based on Ryan Fleury's 4coder color scheme, featuring warm orange-gold tones.
 
 ## Colors
 
@@ -23,7 +23,7 @@ A Visual Studio Code theme based on Ryan Fleury's 4coder theme, featuring warm o
 
 ### Manual Installation
 
-1. Copy the `4coder-vscode-theme` folder to your VSCode extensions directory:
+1. Copy the `fleury-vscode-theme` folder to your VSCode extensions directory:
    - **Windows:** `%USERPROFILE%\.vscode\extensions\`
    - **macOS/Linux:** `~/.vscode/extensions/`
 
@@ -33,13 +33,13 @@ A Visual Studio Code theme based on Ryan Fleury's 4coder theme, featuring warm o
 
 4. Type "Color Theme" and select "Preferences: Color Theme"
 
-5. Select "4coder Warm" from the list
+5. Select "Fleury Theme" from the list
 
 ### Building from Source
 
 ```bash
 npm install -g vsce
-cd ~/Projects/4coder-vscode-theme
+cd ~/Projects/fleury-vscode-theme
 vsce package
 ```
 

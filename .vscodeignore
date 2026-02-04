@@ -1,0 +1,12 @@
+.vscode/
+.gitignore
+CLAUDE.md
+*.md.bak
+*.vsix
+Screenshot*.png
+theme.png
+blowtorch-*.vsix
+reference/
+fleury-theme.md
+node_modules/
+package-lock.json

@@ -143,12 +143,20 @@
       }
     },
     {
+      "name": "Boolean Constants",
+      "scope": [
+        "constant.language.boolean",
+        "constant.language.true",
+        "constant.language.false"
+      ],
+      "settings": {
+        "foreground": "#2895c7"
+      }
+    },
+    {
       "name": "Constants and Literals",
       "scope": [
         "constant.numeric",
-        "constant.language.boolean",
-        "constant.language.true",
-        "constant.language.false",
         "constant",
         "constant.language",
         "support.constant",
